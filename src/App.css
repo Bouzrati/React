@@ -1,31 +1,33 @@
-.App {
-  text-align: center;
+.btn btn-default  {
+  text-align: left;
+  color:black
 }
 
-.App-logo {
+.form-group {
   height: 40vmin;
   pointer-events: none;
+  color:red
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .btn btn-default {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+.checkbox {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: pink;
 }
 
-.App-link {
-  color: #61dafb;
+.btn btn-default {
+  color: black;
 }
 
 @keyframes App-logo-spin {
